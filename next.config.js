@@ -4,12 +4,12 @@ const nextConfig = {
     return [
       {
         source: '/sign-in',
-        destination: '/api/auth/login',
+        destination: 'https://moxo-quill.vercel.app/api/auth/login',
         permanent: true,
       },
       {
         source: '/sign-up',
-        destination: '/api/auth/register',
+        destination: 'https://moxo-quill.vercel.app/api/auth/register',
         permanent: true,
       },
     ]
