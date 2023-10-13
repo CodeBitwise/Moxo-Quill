@@ -24,7 +24,7 @@ export default function Home() {
           asking questions right away.
         </p>
 
-        <Link
+        {/* <Link
           className={buttonVariants({
             size: 'lg',
             className: 'mt-5',
@@ -33,7 +33,7 @@ export default function Home() {
           >
           Get started{' '}
           <ArrowRight className='ml-2 h-5 w-5' />
-        </Link>
+        </Link> */}
       </MaxWidthWrapper>
 
       {/* value proposition section */}
